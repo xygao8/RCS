@@ -1,0 +1,573 @@
+2020-09-21 14:54:45,987 1252 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 24720 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 14:54:45,991 1256 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 14:54:46,066 1331 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b14918a: startup date [Mon Sep 21 14:54:46 CST 2020]; root of context hierarchy
+2020-09-21 14:54:47,578 2843 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 14:54:47,996 3261 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 14:54:48,561 3826 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 14:54:48,596 3861 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 14:54:48,597 3862 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 14:54:48,603 3868 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 14:54:48,847 4112 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 14:54:48,847 4112 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2781 ms
+2020-09-21 14:54:49,055 4320 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 14:54:49,064 4329 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 14:54:49,064 4329 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 14:54:49,064 4329 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 14:54:49,064 4329 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 14:54:49,126 4391 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'configInit': Could not bind properties to 'ConfigInit' : prefix=chatbot.config., ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'chatbot.config.' is not valid
+2020-09-21 14:54:49,128 4393 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-21 14:54:49,145 4410 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 14:54:49,157 4422 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'chatbot.config.' is not valid:
+
+    Invalid characters: '.'
+    Bean: configInit
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'chatbot.config.' so that it conforms to the canonical names requirements.
+
+2020-09-21 14:55:32,900 1535 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 12532 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 14:55:32,905 1540 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 14:55:32,995 1630 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f0e9815: startup date [Mon Sep 21 14:55:32 CST 2020]; root of context hierarchy
+2020-09-21 14:55:34,440 3075 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 14:55:34,778 3413 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 14:55:35,281 3916 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 14:55:35,309 3944 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 14:55:35,309 3944 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 14:55:35,317 3952 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 14:55:35,552 4187 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 14:55:35,552 4187 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2557 ms
+2020-09-21 14:55:35,782 4417 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 14:55:35,789 4424 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 14:55:35,789 4424 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 14:55:35,789 4424 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 14:55:35,789 4424 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 14:55:35,856 4491 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'configInit': Could not bind properties to 'ConfigInit' : prefix=chatbot.config., ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyNameException: Configuration property name 'chatbot.config.' is not valid
+2020-09-21 14:55:35,858 4493 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-21 14:55:35,877 4512 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 14:55:35,888 4523 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'chatbot.config.' is not valid:
+
+    Invalid characters: '.'
+    Bean: configInit
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'chatbot.config.' so that it conforms to the canonical names requirements.
+
+2020-09-21 14:55:44,896 1449 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 17976 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 14:55:44,907 1460 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 14:55:44,971 1524 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a898881: startup date [Mon Sep 21 14:55:44 CST 2020]; root of context hierarchy
+2020-09-21 14:55:46,087 2640 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 14:55:46,403 2956 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 14:55:46,927 3480 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 14:55:46,960 3513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 14:55:46,961 3514 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 14:55:46,966 3519 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 14:55:47,232 3785 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 14:55:47,233 3786 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2263 ms
+2020-09-21 14:55:47,478 4031 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 14:55:47,487 4040 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 14:55:47,487 4040 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 14:55:47,487 4040 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 14:55:47,488 4041 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 14:55:48,290 4843 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/xml],produces=[application/xml;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 14:55:48,291 4844 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/xml],produces=[application/xml;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 14:55:48,292 4845 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 14:55:48,296 4849 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 14:55:48,297 4850 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 14:55:48,298 4851 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 14:55:48,303 4856 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 14:55:48,304 4857 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 14:55:49,143 5696 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a898881: startup date [Mon Sep 21 14:55:44 CST 2020]; root of context hierarchy
+2020-09-21 14:55:49,220 5773 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 14:55:49,221 5774 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 14:55:49,276 5829 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 14:55:49,854 6407 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 14:55:49,866 6419 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 14:55:49,867 6420 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 14:55:49,891 6444 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 14:55:49,910 6463 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 14:55:50,142 6695 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 14:55:50,147 6700 [main] INFO  com.iflytek.rcs.App - Started App in 5.882 seconds (JVM running for 8.57)
+2020-09-21 14:55:53,594 10147 [http-nio-9998-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 14:55:53,595 10148 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 14:55:53,628 10181 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2020-09-21 14:56:31,284 1540 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 25992 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 14:56:31,288 1544 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 14:56:31,364 1620 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@db57326: startup date [Mon Sep 21 14:56:31 CST 2020]; root of context hierarchy
+2020-09-21 14:56:32,529 2785 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 14:56:32,848 3104 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 14:56:33,409 3665 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 14:56:33,446 3702 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 14:56:33,446 3702 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 14:56:33,453 3709 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 14:56:33,704 3960 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 14:56:33,704 3960 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2340 ms
+2020-09-21 14:56:33,894 4150 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 14:56:33,901 4157 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 14:56:33,902 4158 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 14:56:33,902 4158 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 14:56:33,902 4158 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 14:56:34,544 4800 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 14:56:34,546 4802 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/xml],produces=[application/xml;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 14:56:34,547 4803 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 14:56:34,551 4807 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 14:56:34,552 4808 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 14:56:34,553 4809 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 14:56:34,557 4813 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 14:56:34,558 4814 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 14:56:35,526 5782 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@db57326: startup date [Mon Sep 21 14:56:31 CST 2020]; root of context hierarchy
+2020-09-21 14:56:35,611 5867 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 14:56:35,611 5867 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 14:56:35,673 5929 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 14:56:36,322 6578 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 14:56:36,337 6593 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 14:56:36,337 6593 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 14:56:36,366 6622 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 14:56:36,390 6646 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 14:56:36,669 6925 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 14:56:36,674 6930 [main] INFO  com.iflytek.rcs.App - Started App in 5.971 seconds (JVM running for 8.869)
+2020-09-21 14:56:39,362 9618 [http-nio-9998-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 14:56:39,363 9619 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 14:56:39,393 9649 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2020-09-21 16:07:16,348 1575 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 24316 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 16:07:16,352 1579 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 16:07:16,431 1658 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f0e9815: startup date [Mon Sep 21 16:07:16 CST 2020]; root of context hierarchy
+2020-09-21 16:07:17,718 2945 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 16:07:18,168 3395 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 16:07:18,728 3955 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 16:07:18,759 3986 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 16:07:18,760 3987 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 16:07:18,766 3993 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 16:07:18,987 4214 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 16:07:18,987 4214 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2556 ms
+2020-09-21 16:07:19,270 4497 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 16:07:19,283 4510 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 16:07:19,284 4511 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 16:07:19,284 4511 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 16:07:19,284 4511 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 16:07:20,134 5361 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 16:07:20,136 5363 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/xml],produces=[application/xml;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 16:07:20,137 5364 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 16:07:20,141 5368 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 16:07:20,143 5370 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 16:07:20,144 5371 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 16:07:20,149 5376 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 16:07:20,150 5377 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 16:07:21,140 6367 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f0e9815: startup date [Mon Sep 21 16:07:16 CST 2020]; root of context hierarchy
+2020-09-21 16:07:21,244 6471 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:07:21,244 6471 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:07:21,317 6544 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:07:21,947 7174 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 16:07:21,960 7187 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 16:07:21,960 7187 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 16:07:21,986 7213 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 16:07:22,010 7237 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 16:07:22,337 7564 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 16:07:22,343 7570 [main] INFO  com.iflytek.rcs.App - Started App in 6.635 seconds (JVM running for 9.743)
+2020-09-21 16:08:10,239 55466 [http-nio-9998-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 16:08:10,240 55467 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 16:08:10,263 55490 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2020-09-21 16:08:10,332 55559 [http-nio-9998-exec-1] INFO  com.iflytek.rcs.controller.MessageOptController - 收到请求报文：{textMessage='你好', desPhoneNbr='13646839746'}
+2020-09-21 16:08:49,588 94815 [http-nio-9998-exec-3] INFO  com.iflytek.rcs.controller.MessageOptController - 收到请求报文：{textMessage='你好', desPhoneNbr='13646839746'}
+2020-09-21 16:10:16,086 1436 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 16248 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 16:10:16,090 1440 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 16:10:16,164 1514 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@530712d: startup date [Mon Sep 21 16:10:16 CST 2020]; root of context hierarchy
+2020-09-21 16:10:17,246 2596 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 16:10:17,552 2902 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 16:10:18,011 3361 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 16:10:18,036 3386 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 16:10:18,036 3386 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 16:10:18,043 3393 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 16:10:18,257 3607 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 16:10:18,257 3607 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2093 ms
+2020-09-21 16:10:18,442 3792 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 16:10:18,448 3798 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 16:10:18,449 3799 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 16:10:18,449 3799 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 16:10:18,449 3799 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 16:10:19,126 4476 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 16:10:19,127 4477 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/xml],produces=[application/xml;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 16:10:19,128 4478 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 16:10:19,132 4482 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 16:10:19,133 4483 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 16:10:19,134 4484 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 16:10:19,139 4489 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 16:10:19,139 4489 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 16:10:19,883 5233 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@530712d: startup date [Mon Sep 21 16:10:16 CST 2020]; root of context hierarchy
+2020-09-21 16:10:19,952 5302 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:10:19,952 5302 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:10:20,004 5354 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:10:20,512 5862 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 16:10:20,523 5873 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 16:10:20,523 5873 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 16:10:20,543 5893 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 16:10:20,561 5911 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 16:10:20,762 6112 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 16:10:20,767 6117 [main] INFO  com.iflytek.rcs.App - Started App in 5.267 seconds (JVM running for 7.922)
+2020-09-21 16:10:26,024 11374 [http-nio-9998-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 16:10:26,025 11375 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 16:10:26,054 11404 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2020-09-21 16:10:26,126 11476 [http-nio-9998-exec-2] INFO  com.iflytek.rcs.controller.MessageOptController - 收到请求报文：{textMessage='你好', desPhoneNbr='13646839746'}
+2020-09-21 16:11:13,008 1577 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 21072 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 16:11:13,013 1582 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 16:11:13,088 1657 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66ac5762: startup date [Mon Sep 21 16:11:13 CST 2020]; root of context hierarchy
+2020-09-21 16:11:14,429 2998 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 16:11:14,800 3369 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 16:11:15,287 3856 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 16:11:15,315 3884 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 16:11:15,315 3884 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 16:11:15,321 3890 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 16:11:15,537 4106 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 16:11:15,538 4107 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2450 ms
+2020-09-21 16:11:15,717 4286 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 16:11:15,723 4292 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 16:11:15,724 4293 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 16:11:15,724 4293 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 16:11:15,724 4293 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 16:11:16,390 4959 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 16:11:16,391 4960 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 16:11:16,392 4961 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 16:11:16,396 4965 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 16:11:16,397 4966 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 16:11:16,397 4966 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 16:11:16,402 4971 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 16:11:16,403 4972 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 16:11:17,159 5728 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@66ac5762: startup date [Mon Sep 21 16:11:13 CST 2020]; root of context hierarchy
+2020-09-21 16:11:17,231 5800 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:11:17,232 5801 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:11:17,293 5862 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:11:18,028 6597 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 16:11:18,046 6615 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 16:11:18,047 6616 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 16:11:18,075 6644 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 16:11:18,106 6675 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 16:11:18,399 6968 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 16:11:18,405 6974 [main] INFO  com.iflytek.rcs.App - Started App in 6.051 seconds (JVM running for 9.042)
+2020-09-21 16:11:24,602 13171 [http-nio-9998-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 16:11:24,602 13171 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 16:11:24,630 13199 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2020-09-21 16:12:22,950 71519 [http-nio-9998-exec-2] INFO  com.iflytek.rcs.service.impl.MessageOptServiceImpl - params:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+2020-09-21 16:12:31,103 1474 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 17496 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 16:12:31,107 1478 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 16:12:31,180 1551 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b14918a: startup date [Mon Sep 21 16:12:31 CST 2020]; root of context hierarchy
+2020-09-21 16:12:32,314 2685 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 16:12:32,671 3042 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 16:12:33,236 3607 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 16:12:33,279 3650 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 16:12:33,279 3650 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 16:12:33,288 3659 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 16:12:33,555 3926 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 16:12:33,555 3926 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2376 ms
+2020-09-21 16:12:33,754 4125 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 16:12:33,761 4132 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 16:12:33,762 4133 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 16:12:33,762 4133 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 16:12:33,762 4133 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 16:12:34,477 4848 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 16:12:34,478 4849 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 16:12:34,479 4850 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 16:12:34,482 4853 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 16:12:34,483 4854 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 16:12:34,483 4854 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 16:12:34,489 4860 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 16:12:34,489 4860 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 16:12:35,405 5776 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b14918a: startup date [Mon Sep 21 16:12:31 CST 2020]; root of context hierarchy
+2020-09-21 16:12:35,496 5867 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:12:35,496 5867 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:12:35,559 5930 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:12:36,136 6507 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 16:12:36,150 6521 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 16:12:36,150 6521 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 16:12:36,170 6541 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 16:12:36,188 6559 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 16:12:36,407 6778 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 16:12:36,417 6788 [main] INFO  com.iflytek.rcs.App - Started App in 5.933 seconds (JVM running for 8.927)
+2020-09-21 16:12:39,800 10171 [http-nio-9998-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 16:12:39,800 10171 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 16:12:39,828 10199 [http-nio-9998-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2020-09-21 16:17:35,993 306364 [http-nio-9998-exec-2] INFO  com.iflytek.rcs.service.impl.MessageOptServiceImpl - params:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<outboundMessageRequest>
+    <address>13646839746</address>
+    <destinationAddress>13646839746</destinationAddress>
+    <outboundIMMessage>
+        <bodyText>你好</bodyText>
+        <contentType>text/plain</contentType>
+        <contributionID>dd16a99a-2389-4df4-be21-a009bafedd75</contributionID>
+        <conversationID>ef9951ad-6687-4425-8018-d57661f4084f</conversationID>
+        <serviceCapability>
+            <capabilityId>ChatbotSA</capabilityId>
+            <version>+g.gsma.rcs.botversion=&amp;quot;#=1&amp;quot;</version>
+        </serviceCapability>
+    </outboundIMMessage>
+    <senderAddress>sip:null</senderAddress>
+</outboundMessageRequest>
+
+2020-09-21 16:17:45,553 2494 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 5308 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 16:17:45,558 2499 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 16:17:45,635 2576 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@797cf65c: startup date [Mon Sep 21 16:17:45 CST 2020]; root of context hierarchy
+2020-09-21 16:17:46,911 3852 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 16:17:47,254 4195 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 16:17:47,760 4701 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 16:17:47,790 4731 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 16:17:47,790 4731 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 16:17:47,796 4737 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 16:17:48,028 4969 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 16:17:48,029 4970 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2393 ms
+2020-09-21 16:17:48,237 5178 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 16:17:48,245 5186 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 16:17:48,245 5186 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 16:17:48,245 5186 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 16:17:48,245 5186 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 16:17:48,984 5925 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 16:17:48,985 5926 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 16:17:48,986 5927 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 16:17:48,990 5931 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 16:17:48,991 5932 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 16:17:48,991 5932 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 16:17:48,997 5938 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 16:17:48,997 5938 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 16:17:49,773 6714 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@797cf65c: startup date [Mon Sep 21 16:17:45 CST 2020]; root of context hierarchy
+2020-09-21 16:17:49,847 6788 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:17:49,848 6789 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:17:49,925 6866 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:17:50,530 7471 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 16:17:50,542 7483 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 16:17:50,543 7484 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 16:17:50,567 7508 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 16:17:50,588 7529 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 16:17:50,818 7759 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 16:17:50,824 7765 [main] INFO  com.iflytek.rcs.App - Started App in 6.085 seconds (JVM running for 9.865)
+2020-09-21 16:17:53,409 10350 [http-nio-9998-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 16:17:53,409 10350 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 16:17:53,440 10381 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2020-09-21 16:17:56,621 13562 [http-nio-9998-exec-1] INFO  com.iflytek.rcs.service.impl.MessageOptServiceImpl - params:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg:outboundMessageRequest xmlns:msg="urn:oma:xml:rest:netapi:messaging:1">
+    <address>13646839746</address>
+    <destinationAddress>13646839746</destinationAddress>
+    <outboundIMMessage>
+        <bodyText>你好</bodyText>
+        <contentType>text/plain</contentType>
+        <contributionID>242b4bb8-8653-43d4-91d5-ade013f8cc70</contributionID>
+        <conversationID>00636d67-1a3c-48b3-853f-d84af4ca3cbe</conversationID>
+        <serviceCapability>
+            <capabilityId>ChatbotSA</capabilityId>
+            <version>+g.gsma.rcs.botversion=&amp;quot;#=1&amp;quot;</version>
+        </serviceCapability>
+    </outboundIMMessage>
+    <senderAddress>sip:null</senderAddress>
+</outboundMessageRequest>
+
+2020-09-21 16:19:55,141 1572 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 15328 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 16:19:55,147 1578 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 16:19:55,233 1664 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b1712f3: startup date [Mon Sep 21 16:19:55 CST 2020]; root of context hierarchy
+2020-09-21 16:19:56,333 2764 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 16:19:56,647 3078 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 16:19:57,116 3547 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 16:19:57,143 3574 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 16:19:57,144 3575 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 16:19:57,149 3580 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 16:19:57,361 3792 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 16:19:57,362 3793 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2129 ms
+2020-09-21 16:19:57,571 4002 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 16:19:57,580 4011 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 16:19:57,581 4012 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 16:19:57,581 4012 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 16:19:57,581 4012 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 16:19:58,983 5414 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 16:19:58,984 5415 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 16:19:58,985 5416 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 16:19:58,990 5421 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 16:19:58,991 5422 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 16:19:58,992 5423 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 16:19:58,997 5428 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 16:19:58,998 5429 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 16:19:59,784 6215 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b1712f3: startup date [Mon Sep 21 16:19:55 CST 2020]; root of context hierarchy
+2020-09-21 16:19:59,858 6289 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:19:59,858 6289 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:19:59,912 6343 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 16:20:00,459 6890 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 16:20:00,471 6902 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 16:20:00,471 6902 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 16:20:00,492 6923 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 16:20:00,511 6942 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 16:20:00,718 7149 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 16:20:00,723 7154 [main] INFO  com.iflytek.rcs.App - Started App in 6.2 seconds (JVM running for 9.039)
+2020-09-21 16:20:04,032 10463 [http-nio-9998-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 16:20:04,034 10465 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 16:20:04,081 10512 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2020-09-21 16:20:07,954 14385 [http-nio-9998-exec-1] INFO  com.iflytek.rcs.service.impl.MessageOptServiceImpl - params:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg:outboundMessageRequest xmlns:msg="urn:oma:xml:rest:netapi:messaging:1">
+    <address>13646839746</address>
+    <destinationAddress>13646839746</destinationAddress>
+    <outboundIMMessage>
+        <bodyText>你好</bodyText>
+        <contentType>text/plain</contentType>
+        <contributionID>355f9aca-7c7e-455d-837a-be8f7625bf0b</contributionID>
+        <conversationID>1d5dea28-9376-42e4-ae0a-bc65a133fbb6</conversationID>
+        <serviceCapability>
+            <capabilityId>ChatbotSA</capabilityId>
+            <version>+g.gsma.rcs.botversion=&amp;quot;#=1&amp;quot;</version>
+        </serviceCapability>
+    </outboundIMMessage>
+    <senderAddress>sip:itranstest.iflytek.com</senderAddress>
+</outboundMessageRequest>
+
+2020-09-21 16:20:39,060 45491 [http-nio-9998-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1316)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1291)
+	at com.iflytek.rcs.utils.AccessTokenHttpUtils.sendPost(AccessTokenHttpUtils.java:66)
+	at com.iflytek.rcs.service.impl.MessageOptServiceImpl.sendPlainTextMessage(MessageOptServiceImpl.java:60)
+	at com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(MessageOptController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:870)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-09-21 19:15:36,703 2193 [main] INFO  com.iflytek.rcs.App - Starting App on xygao8 with PID 18484 (D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS\target\classes started by xygao8 in D:\iflytek\svn\ZNFW_ICR_7.0\Branches\5gRCS_interface_20200921\source\RCS)
+2020-09-21 19:15:36,709 2199 [main] INFO  com.iflytek.rcs.App - No active profile set, falling back to default profiles: default
+2020-09-21 19:15:36,834 2324 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a6c1270: startup date [Mon Sep 21 19:15:36 CST 2020]; root of context hierarchy
+2020-09-21 19:15:38,204 3694 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-21 19:15:38,725 4215 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-21 19:15:39,586 5076 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2020-09-21 19:15:39,640 5130 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 19:15:39,641 5131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2020-09-21 19:15:39,649 5139 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\iflytek\NetSarang Computer\Xshell6\;C:\ProgramData\Oracle\Java\javapath;D:\iflytek\install\xftp6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Pan Iflytek;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\iflytek\install\strawberryPerl\c\bin;D:\iflytek\install\strawberryPerl\perl\site\bin;D:\iflytek\install\strawberryPerl\perl\bin;D:\iflytek\install\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\Program Files\Git\cmd;C:\Users\xygao8\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_141\bin;D:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\Users\xygao8\AppData\Roaming\npm;C:\Windows\System32\Wbem;.]
+2020-09-21 19:15:39,942 5432 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 19:15:39,942 5432 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3108 ms
+2020-09-21 19:15:40,193 5683 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2020-09-21 19:15:40,207 5697 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-09-21 19:15:40,208 5698 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-09-21 19:15:40,208 5698 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-09-21 19:15:40,208 5698 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-09-21 19:15:41,618 7108 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/test],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.test(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.io.IOException
+2020-09-21 19:15:41,619 7109 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/chatbot/plainTextMessage],methods=[POST],consumes=[application/json],produces=[application/json;charset=utf-8]}" onto public com.iflytek.rcs.pojo.standard.ResponseResult com.iflytek.rcs.controller.MessageOptController.plainTextMessageSend(com.iflytek.rcs.pojo.A2PMessagePojo) throws java.lang.Exception
+2020-09-21 19:15:41,621 7111 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-09-21 19:15:41,625 7115 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-09-21 19:15:41,627 7117 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-09-21 19:15:41,630 7120 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-09-21 19:15:41,638 7128 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-09-21 19:15:41,639 7129 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-09-21 19:15:42,961 8451 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a6c1270: startup date [Mon Sep 21 19:15:36 CST 2020]; root of context hierarchy
+2020-09-21 19:15:43,055 8545 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 19:15:43,055 8545 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 19:15:43,119 8609 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-09-21 19:15:43,810 9300 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-09-21 19:15:43,824 9314 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-09-21 19:15:43,824 9314 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-21 19:15:43,858 9348 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-21 19:15:43,877 9367 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-21 19:15:44,148 9638 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2020-09-21 19:15:44,156 9646 [main] INFO  com.iflytek.rcs.App - Started App in 8.326 seconds (JVM running for 11.874)
+2020-09-21 19:15:47,004 12494 [http-nio-9998-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-09-21 19:15:47,005 12495 [http-nio-9998-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-09-21 19:15:47,053 12543 [http-nio-9998-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2020-09-21 19:15:47,170 12660 [http-nio-9998-exec-3] INFO  com.iflytek.rcs.controller.MessageOptController - 收到请求报文：{textMessage='你好', desPhoneNbr='13646839746'}
+2020-09-21 19:15:52,522 18012 [http-nio-9998-exec-3] INFO  com.iflytek.rcs.service.impl.MessageOptServiceImpl - params:<![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<msg:outboundMessageRequest xmlns:msg="urn:oma:xml:rest:netapi:messaging:1">
+    <address>tel:13646839746</address>
+    <destinationAddress>tel:13646839746</destinationAddress>
+    <outboundIMMessage>
+        <bodyText>你好</bodyText>
+        <contentType>text/plain</contentType>
+        <contributionID>9283dc1e-9777-45e6-a50b-3a2bb5606207</contributionID>
+        <conversationID>bcb06dbd-17ca-4660-ab20-f809544eb698</conversationID>
+        <serviceCapability>
+            <capabilityId>ChatbotSA</capabilityId>
+            <version>+g.gsma.rcs.botversion=&amp;quot;#=1&amp;quot;</version>
+        </serviceCapability>
+    </outboundIMMessage>
+    <senderAddress>sip:1069162550310124</senderAddress>
+</outboundMessageRequest>
+]]>
